@@ -18,7 +18,7 @@ export default async function Categories() {
                         <li key={c.id}>
                             <Label>
                                 <LocalizedClientLink
-                                    className="!text-sm !transform-none hover:text-ui-fg-base transition-all duration-300"
+                                    className="!txt-compact-small !transform-none hover:text-ui-fg-base transition-all duration-300"
                                     href={`/collections/${c.handle}`}
                                     >
                                     {c.title}
@@ -29,7 +29,7 @@ export default async function Categories() {
                         <li>
                             <Label>
                                 <LocalizedClientLink
-                                    className="!text-sm !transform-none hover:text-ui-fg-base transition-all duration-300"
+                                    className="!txt-compact-small !transform-none hover:text-ui-fg-base transition-all duration-300"
                                     href={`/store`}
                                     >
                                     Tutti i prodotti

@@ -56,7 +56,7 @@ export const PrevButton: React.FC<PropType> = (props) => {
 
   return (
     <button
-      className="embla__button embla__button--prev fill-slate-600 hover:fill-yellow-500 transition-colors"
+      className="embla__button embla__button--prev fill-slate-400 hover:fill-yellow-500 transition-colors"
       type="button"
       {...restProps}
     >
@@ -75,7 +75,7 @@ export const NextButton: React.FC<PropType> = (props) => {
 
   return (
     <button
-      className="embla__button embla__button--next fill-slate-600 hover:fill-yellow-500 transition-colors"
+      className="embla__button embla__button--next fill-slate-400 hover:fill-yellow-500 transition-colors"
       type="button"
       {...restProps}
     >
