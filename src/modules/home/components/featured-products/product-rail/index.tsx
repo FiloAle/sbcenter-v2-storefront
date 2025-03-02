@@ -13,7 +13,7 @@ export default async function ProductRail({
   const {
     response: { products },
   } = await getProductsList({
-    pageParam: 0,
+    pageParam: 3,
     queryParams: {
       limit: 4
     },
