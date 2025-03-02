@@ -1,7 +1,7 @@
 "use client"
 
 import FastDelivery from "@modules/common/icons/fast-delivery"
-import Refresh from "@modules/common/icons/refresh"
+import { CheckBadgeIcon } from "@heroicons/react/24/outline"
 
 import Accordion from "./accordion"
 import { HttpTypes } from "@medusajs/types"
@@ -63,7 +63,7 @@ const ShippingInfoTab = () => {
           </div>
         </div>
         <div className="flex items-start gap-x-2">
-          <Refresh />
+          <CheckBadgeIcon className="h-5 w-5"/>
           <div>
             <span className="font-semibold">Qualità garantita</span>
             <p className="max-w-sm">

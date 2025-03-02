@@ -5,6 +5,7 @@ import Image from "next/image"
 
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import logo from "../../../../../public/sbcenter.svg"
+import SBCenterIcon from "../../../../../public/sbcenter"
 
 export default async function Footer() {
   const { collections } = await getCollectionsList(0, 6)
@@ -16,11 +17,10 @@ export default async function Footer() {
         <div className="flex flex-col gap-y-6 xsmall:flex-row items-start justify-between py-20 font-sans">
           <div>
             <LocalizedClientLink href="/">
-              <Image
-                src={logo}
+              <SBCenterIcon
                 alt="SB Center"
                 height={48}
-                className="!cursor-pointer"
+                className="!cursor-pointer fill-slate-600"
               />
             </LocalizedClientLink>
           </div>

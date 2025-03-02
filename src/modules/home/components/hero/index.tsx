@@ -15,7 +15,7 @@ const Hero = () => {
         style={{
           objectFit: "cover",
         }}
-        className="h-full w-full brightness-75 rounded-xl shadow-md"
+        className="h-full w-full brightness-80 rounded-xl shadow-md"
       />
       <div className="p-16 absolute inset-0 z-10 flex flex-col justify-between items-center text-center small:p-32 gap-6">
         <span />

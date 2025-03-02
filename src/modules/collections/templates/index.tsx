@@ -23,7 +23,7 @@ export default function CollectionTemplate({
 
   return (
     <div className="flex flex-col small:flex-row small:items-start py-6 content-container">
-      <div className="flex flex-row xsmall:flex-col justify-between">
+      <div className="flex flex-row small:flex-col justify-between">
         <Categories />
         <RefinementList sortBy={sort} />
       </div>

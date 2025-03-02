@@ -1,7 +1,9 @@
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import ChevronDown from "@modules/common/icons/chevron-down"
+import { ChevronLeftIcon } from "@heroicons/react/24/outline"
 import Image from "next/image"
 import logo from "../../../../public/sbcenter.svg"
+import SBCenterIcon from "../../../../public/sbcenter"
 
 export default function CheckoutLayout({
   children,
@@ -14,14 +16,15 @@ export default function CheckoutLayout({
         <nav className="flex h-full items-center content-container justify-between">
           <LocalizedClientLink
             href="/cart"
-            className="text-small-semi text-ui-fg-base flex items-center gap-x-2 uppercase flex-1 basis-0"
+            className="text-small-semi flex items-center gap-x-2 uppercase flex-1 basis-0 group/back"
             data-testid="back-to-cart-link"
           >
-            <ChevronDown className="rotate-90" size={16} />
-            <span className="mt-px hidden small:block txt-compact-plus text-ui-fg-subtle hover:text-ui-fg-base ">
+            <ChevronLeftIcon className="h-4 stroke-2 stroke-slate-600 group-hover/back:stroke-yellow-500 transition-all duration-300" />
+
+            <span className="mt-px hidden small:block txt-compact-plus text-slate-600 group-hover/back:text-yellow-500 transition-all duration-300">
               Torna al carrello
             </span>
-            <span className="mt-px block small:hidden txt-compact-plus text-ui-fg-subtle hover:text-ui-fg-base">
+            <span className="mt-px block small:hidden txt-compact-plus text-slate-600 group-hover/back:text-yellow-500 transition-all duration-300">
               Indietro
             </span>
           </LocalizedClientLink>
@@ -29,11 +32,10 @@ export default function CheckoutLayout({
             href="/"
             data-testid="store-link"
           >
-            <Image
-              src={logo}
+            <SBCenterIcon
               alt="SB Center"
               height={36}
-              className="transition-all duration-300 !cursor-pointer hover:scale-105"
+              className="fill-slate-600 transition-all duration-300 !cursor-pointer hover:fill-yellow-500"
             />
           </LocalizedClientLink>
           <div className="flex-1 basis-0" />

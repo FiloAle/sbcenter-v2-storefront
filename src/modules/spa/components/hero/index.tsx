@@ -1,7 +1,6 @@
 import { Heading } from "@medusajs/ui"
 import Image from "next/image"
 import { PillButton } from "@modules/common/components/pill-button"
-import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import bgImage from "../../../../../public/ritual.jpg"
 import { ChevronRightIcon } from "@heroicons/react/24/outline"
 
@@ -15,7 +14,7 @@ const HeroSPA = () => {
         style={{
           objectFit: "cover",
         }}
-        className="h-full w-full brightness-75 rounded-xl shadow-md object-top"
+        className="h-full w-full brightness-[0.6] rounded-xl shadow-md object-top"
       />
       <div className="p-16 absolute inset-0 z-10 flex flex-col justify-between items-center text-center small:p-32 gap-6">
         <span />

@@ -5,6 +5,7 @@ import CartButton from "@modules/layout/components/cart-button"
 import Image from "next/image"
 import logo from "../../../../../public/sbcenter.svg"
 import SideMenu from "@modules/layout/components/menu"
+import SBCenterIcon from "../../../../../public/sbcenter"
 
 export default async function Nav() {
   return (
@@ -17,31 +18,26 @@ export default async function Nav() {
             </div>
           </div>
 
-          <div className="flex items-center h-full transition-all duration-300 !cursor-pointer hover:scale-105">
+          <div className="flex items-center h-full !cursor-pointer group/logo">
             <LocalizedClientLink
               href="/"
             >
-              <Image
-              src={logo}
-              alt="SB Center"
-              height={36}
-              className="!cursor-pointer"
+              {/* <Image
+                src={logo}
+                alt="SB Center"
+                height={36}
+                className="!cursor-pointer"
+              /> */}
+
+              <SBCenterIcon
+                alt="SB Center"
+                height={36}
+                className="!cursor-pointer fill-slate-600 group-hover/logo:fill-yellow-500 transition-all duration-300"
               />
             </LocalizedClientLink>
           </div>
 
           <div className="z-0 flex items-center gap-x-3 h-full flex-1 basis-0 justify-end">
-            <div className="hidden small:flex items-center gap-x-6 h-full">
-              {process.env.FEATURE_SEARCH_ENABLED && (
-                <LocalizedClientLink
-                  className="text-slate-600 transition-all duration-300 hover:text-yellow-500"
-                  href="/search"
-                  scroll={false}
-                >
-                  Cerca
-                </LocalizedClientLink>
-              )}
-            </div>
             <Suspense
               fallback={
                 <LocalizedClientLink

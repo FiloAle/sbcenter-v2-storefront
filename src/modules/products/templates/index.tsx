@@ -52,7 +52,6 @@ const ProductTemplate: React.FC<ProductTemplateProps> = ({
         </div>
         <div className="h-full w-full">
           <EmblaCarousel thumbnail={product?.thumbnail || ""} images={product?.images || []} />
-          {/*<ImageGallery thumbnail={product?.thumbnail || ""} images={product?.images || []} />*/}
         </div>
       </div>
       <div
