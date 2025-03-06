@@ -60,7 +60,7 @@ const MobileActions: React.FC<MobileActionsProps> = ({
                 )}
                 <span
                   className={clx({
-                    "text-md font-semibold text-yellow-500":
+                    "text-md font-semibold text-gold-500":
                       selectedPrice.price_type === "sale",
                   })}
                 >

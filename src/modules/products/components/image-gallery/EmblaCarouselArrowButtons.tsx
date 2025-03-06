@@ -62,7 +62,7 @@ export const PrevButton: React.FC<PropType> = (props) => {
       type="button"
       {...restProps}
     >
-      <ArrowLeftCircleIcon className="embla__button__svg text-slate-400 group-hover/buttonLeft:text-yellow-500 transition-colors stroke-1"/>
+      <ArrowLeftCircleIcon className="embla__button__svg text-slate-400 group-hover/buttonLeft:text-gold-500 transition-colors stroke-1"/>
       {children}
     </button>
   )
@@ -77,7 +77,7 @@ export const NextButton: React.FC<PropType> = (props) => {
       type="button"
       {...restProps}
     >
-      <ArrowLeftCircleIcon className="embla__button__svg text-slate-400 group-hover/buttonRight:text-yellow-500 transition-colors rotate-180 stroke-1"/>
+      <ArrowLeftCircleIcon className="embla__button__svg text-slate-400 group-hover/buttonRight:text-gold-500 transition-colors rotate-180 stroke-1"/>
       {children}
     </button>
   )

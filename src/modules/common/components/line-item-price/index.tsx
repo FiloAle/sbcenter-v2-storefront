@@ -43,7 +43,7 @@ const LineItemPrice = ({ item, style = "default" }: LineItemPriceProps) => {
               </span>
             </p>
             {style === "default" && (
-              <span className="text-yellow-500">
+              <span className="text-gold-500">
                 -{getPercentageDiff(originalPrice, currentPrice || 0)}%
               </span>
             )}
@@ -51,7 +51,7 @@ const LineItemPrice = ({ item, style = "default" }: LineItemPriceProps) => {
         )}
         <span
           className={clx("text-base-regular", {
-            "text-yellow-500": hasReducedPrice,
+            "text-gold-500": hasReducedPrice,
           })}
           data-testid="product-price"
         >

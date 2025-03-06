@@ -29,7 +29,7 @@ const AccountLayout: React.FC<AccountLayoutProps> = ({
               Chiedi aiuto al nostro servizio clienti.
             </span>
           </div>
-          <a href="mailto:servizioclienti@sbcenter.it" className="flex gap-x-1 items-center group text-yellow-500 hover:text-yellow-600 transition-all duration-300">
+          <a href="mailto:servizioclienti@sbcenter.it" className="flex gap-x-1 items-center group text-gold-500 hover:text-gold-700 transition-all duration-300">
             <Text>
               Servizio clienti
             </Text>

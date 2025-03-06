@@ -47,7 +47,7 @@ export default function CookieModal() {
                                 </span>
                             </p>
                             <button
-                                className="w-full p-2 mb-1 gap-x-1 bg-yellow-500 hover:bg-yellow-600 cursor-pointer text-center text-white font-medium rounded-md transition-all duration-300"
+                                className="w-full p-2 mb-1 gap-x-1 bg-gold-500 hover:bg-gold-700 cursor-pointer text-center text-white font-medium rounded-md transition-all duration-300"
                                 onClick={toggle}
                             >
                                 Va bene, accetto

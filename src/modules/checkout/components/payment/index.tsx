@@ -133,7 +133,7 @@ const Payment = ({
           <Text>
             <button
               onClick={handleEdit}
-              className="text-yellow-500 hover:text-yellow-600"
+              className="text-gold-500 hover:text-gold-700"
               data-testid="edit-payment-button"
             >
               Modifica

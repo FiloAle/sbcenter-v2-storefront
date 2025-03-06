@@ -33,10 +33,10 @@ export default async function About() {
           <div className="lg:w-1/2 p-6 flex flex-col justify-between gap-y-6 lg:gap-y-0">
             <div>
               <Text className="font-sans font-light italic text-lg lg:text-xl text-slate-500">
-                SB Center di Simona Bionda <span className="font-normal text-yellow-500">nasce nel 1989</span> sulle sponde del Lago d’Orta, a Omegna. 
+                SB Center di Simona Bionda <span className="font-normal text-gold-500">nasce nel 1989</span> sulle sponde del Lago d’Orta, a Omegna. 
                 Con l’avanzare delle tecnologie, nel 2000 si decide di espandere l’attività sul Lago Maggiore, ad Arona. 
                 Da oltre 30 anni, SB Center è un centro benessere dove, oltre ai trattamenti e ai rituali di bellezza per il corpo, 
-                puoi vivere momenti di <span className="font-normal text-yellow-500">ritrovata armonia</span>.
+                puoi vivere momenti di <span className="font-normal text-gold-500">ritrovata armonia</span>.
               </Text>
             </div>
             

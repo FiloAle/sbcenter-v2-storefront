@@ -22,7 +22,7 @@ export default async function Services() {
                     <div className="rounded-xl border border-slate-600 shadow-md px-6 pt-4">
                         <div className="mb-4">
                             <div className="flex justify-between mb-2">
-                                <Text className="text-lg font-sans text-yellow-500">Personal care</Text>
+                                <Text className="text-lg font-sans text-gold-500">Personal care</Text>
                             </div>
                             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-1 text-slate-600">
                                 {sbservices.sb.personalcare.map((service) => (
@@ -35,7 +35,7 @@ export default async function Services() {
                         </div>
                         <div className="mb-4">
                             <div className="flex justify-between mb-2">
-                                <Text className="text-lg font-sans text-yellow-500">Epilazione</Text>
+                                <Text className="text-lg font-sans text-gold-500">Epilazione</Text>
                             </div>
                             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-1 text-slate-600">
                                 {sbservices.sb.epilazione.map((service) => (
@@ -48,7 +48,7 @@ export default async function Services() {
                         </div>
                         <div className="mb-4">
                             <div className="flex justify-between mb-2">
-                                <Text className="text-lg font-sans text-yellow-500">Massaggi</Text>
+                                <Text className="text-lg font-sans text-gold-500">Massaggi</Text>
                             </div>
                             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-1 text-slate-600">
                                 {sbservices.sb.massaggi.map((service) => (
@@ -68,7 +68,7 @@ export default async function Services() {
                     <div className="rounded-xl border border-slate-600 shadow-md px-6 pt-4">
                         <div className="mb-4">
                             <div className="flex justify-between mb-2">
-                                <Text className="text-lg font-sans text-yellow-500">Epilazione</Text>
+                                <Text className="text-lg font-sans text-gold-500">Epilazione</Text>
                             </div>
                             <ul className="grid grid-cols-1 gap-x-32 gap-y-1 text-slate-600">
                                 {sbservices.esth.map((service) => (
@@ -88,7 +88,7 @@ export default async function Services() {
                     <div className="rounded-xl border border-slate-600 shadow-md px-6 pt-4">
                         <div className="mb-4">
                             <div className="flex justify-between mb-2">
-                                <Text className="text-lg font-sans text-yellow-500">Trattamenti manuali viso</Text>
+                                <Text className="text-lg font-sans text-gold-500">Trattamenti manuali viso</Text>
                             </div>
                             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-1 text-slate-600">
                                 {sbservices.dibi.manualiviso.map((service) => (
@@ -101,7 +101,7 @@ export default async function Services() {
                         </div>
                         <div className="mb-4">
                             <div className="flex justify-between mb-2">
-                                <Text className="text-lg font-sans text-yellow-500">Trattamenti manuali corpo</Text>
+                                <Text className="text-lg font-sans text-gold-500">Trattamenti manuali corpo</Text>
                             </div>
                             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-1 text-slate-600">
                                 {sbservices.dibi.manualicorpo.map((service) => (
@@ -114,7 +114,7 @@ export default async function Services() {
                         </div>
                         <div className="mb-4">
                             <div className="flex justify-between mb-2">
-                                <Text className="text-lg font-sans text-yellow-500">Trattamenti DiBi viso</Text>
+                                <Text className="text-lg font-sans text-gold-500">Trattamenti DiBi viso</Text>
                             </div>
                             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-1 text-slate-600">
                                 {sbservices.dibi.dibiviso.map((service) => (
@@ -127,7 +127,7 @@ export default async function Services() {
                         </div>
                         <div className="mb-4">
                             <div className="flex justify-between mb-2">
-                                <Text className="text-lg font-sans text-yellow-500">Trattamenti DiBi corpo</Text>
+                                <Text className="text-lg font-sans text-gold-500">Trattamenti DiBi corpo</Text>
                             </div>
                             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-1 text-slate-600">
                                 {sbservices.dibi.dibicorpo.map((service) => (
@@ -147,7 +147,7 @@ export default async function Services() {
                     <div className="rounded-xl border border-slate-600 shadow-md px-6 pt-4">
                         <div className="mb-4">
                             <div className="flex justify-between mb-2">
-                                <Text className="text-lg font-sans text-yellow-500">Trattamenti viso</Text>
+                                <Text className="text-lg font-sans text-gold-500">Trattamenti viso</Text>
                             </div>
                             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-1 text-slate-600">
                                 {sbservices.cz.viso.map((service) => (
@@ -160,7 +160,7 @@ export default async function Services() {
                         </div>
                         <div className="mb-4">
                             <div className="flex justify-between mb-2">
-                                <Text className="text-lg font-sans text-yellow-500">Trattamenti corpo</Text>
+                                <Text className="text-lg font-sans text-gold-500">Trattamenti corpo</Text>
                             </div>
                             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-1 text-slate-600">
                                 {sbservices.cz.corpo.map((service) => (
@@ -173,7 +173,7 @@ export default async function Services() {
                         </div>
                         <div className="mb-4">
                             <div className="flex justify-between mb-2">
-                                <Text className="text-lg font-sans text-yellow-500">Rituali</Text>
+                                <Text className="text-lg font-sans text-gold-500">Rituali</Text>
                             </div>
                             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-1 text-slate-600">
                                 {sbservices.cz.rituali.map((service) => (
@@ -186,7 +186,7 @@ export default async function Services() {
                         </div>
                         <div className="mb-4">
                             <div className="flex justify-between mb-2">
-                                <Text className="text-lg font-sans text-yellow-500">Ingressi SPA</Text>
+                                <Text className="text-lg font-sans text-gold-500">Ingressi SPA</Text>
                             </div>
                             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-1 text-slate-600">
                                 {sbservices.cz.spa.map((service) => (

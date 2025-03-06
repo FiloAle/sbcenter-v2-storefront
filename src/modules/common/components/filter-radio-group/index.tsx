@@ -30,7 +30,7 @@ const FilterRadioGroup = ({
               "ml-[-23px]": i.value === value,
             })}
           >
-            {i.value === value && <EllipseMiniSolid className="text-yellow-500 group-hover/selector:text-yellow-500 transition-all duration-300" />}
+            {i.value === value && <EllipseMiniSolid className="text-gold-500 group-hover/selector:text-gold-500 transition-all duration-300" />}
             <RadioGroup.Item
               checked={i.value === value}
               className="hidden peer"
@@ -40,9 +40,9 @@ const FilterRadioGroup = ({
             <Label
               htmlFor={i.value}
               className={clx(
-                "!txt-compact-small !transform-none text-ui-fg-subtle hover:cursor-pointer group-hover/selector:text-yellow-500 transition-all duration-300",
+                "!txt-compact-small !transform-none text-ui-fg-subtle hover:cursor-pointer group-hover/selector:text-gold-500 transition-all duration-300",
                 {
-                  "text-yellow-500": i.value === value,
+                  "text-gold-500": i.value === value,
                 }
               )}
               data-testid="radio-label"

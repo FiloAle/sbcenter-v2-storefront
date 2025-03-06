@@ -20,7 +20,7 @@ const OrderDetails = ({ order }: OrderDetailsProps) => {
         .
       </Text>
       <Text className="mt-2 text-ui-fg-muted">
-        ID Ordine <span data-testid="order-id" className="text-yellow-500">#{order.display_id}</span>
+        ID Ordine <span data-testid="order-id" className="text-gold-500">#{order.display_id}</span>
       </Text>
     </div>
   )

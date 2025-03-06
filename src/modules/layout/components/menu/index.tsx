@@ -43,7 +43,7 @@ const SideMenu = () => {
                   <li>
                     <LocalizedClientLink
                       href="/"
-                      className="flex text-lg font-light text-slate-600 transition-all duration-300 hover:text-yellow-500 gap-2"
+                      className="flex text-lg font-light text-slate-600 transition-all duration-300 hover:text-gold-500 gap-2"
                       onClick={close}
                     >
                       <HomeIcon height={20} className="h-full pt-[3px]" /> Home
@@ -52,7 +52,7 @@ const SideMenu = () => {
                   <li>
                     <LocalizedClientLink
                       href="/services"
-                      className="flex text-lg font-light text-slate-600 transition-all duration-300 hover:text-yellow-500 gap-2"
+                      className="flex text-lg font-light text-slate-600 transition-all duration-300 hover:text-gold-500 gap-2"
                       onClick={close}
                     >
                       <SparklesIcon height={20} className="h-full pt-[3px]" />{" "}
@@ -62,7 +62,7 @@ const SideMenu = () => {
                   <li>
                     <LocalizedClientLink
                       href="/store"
-                      className="flex text-lg font-light text-slate-600 transition-all duration-300 hover:text-yellow-500 gap-2"
+                      className="flex text-lg font-light text-slate-600 transition-all duration-300 hover:text-gold-500 gap-2"
                       onClick={close}
                     >
                       <Squares2X2Icon height={20} className="h-full pt-[3px]" />{" "}
@@ -72,7 +72,7 @@ const SideMenu = () => {
                   <li>
                     <LocalizedClientLink
                       href="/account"
-                      className="flex text-lg font-light text-slate-600 transition-all duration-300 hover:text-yellow-500 gap-2"
+                      className="flex text-lg font-light text-slate-600 transition-all duration-300 hover:text-gold-500 gap-2"
                       onClick={close}
                     >
                       <UserIcon height={20} className="h-full pt-[3px]" />{" "}
@@ -82,7 +82,7 @@ const SideMenu = () => {
                   <li>
                     <LocalizedClientLink
                       href="/about"
-                      className="flex text-lg font-light text-slate-600 transition-all duration-300 hover:text-yellow-500 gap-2 group/about"
+                      className="flex text-lg font-light text-slate-600 transition-all duration-300 hover:text-gold-500 gap-2 group/about"
                       onClick={close}
                     >
                       <HandRaisedIcon

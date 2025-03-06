@@ -76,10 +76,10 @@ const CartDropdown = ({
       onMouseLeave={close}
     >
       <Popover className="relative h-full">
-        <Popover.Button className="h-full text-slate-600 transition-all duration-300 hover:text-yellow-500 group/cart">
+        <Popover.Button className="h-full text-gold-500 transition-all duration-300 hover:text-gold-700 group/cart">
           <LocalizedClientLink className="flex flex-row items-center" href="/cart">
             <ShoppingBag/>
-            <div className="mt-px ms-px pt-0.5 h-5 w-5 bg-slate-600 rounded-full text-white font-semibold text-center items-center justify-center group-hover/cart:bg-yellow-500 transition-all duration-300">{`${totalItems}`}</div>
+            <div className="mt-px ms-px pt-0.5 h-5 w-5 bg-gold-500 rounded-full text-white font-semibold text-center items-center justify-center group-hover/cart:bg-gold-700 transition-all duration-300">{`${totalItems}`}</div>
           </LocalizedClientLink>
         </Popover.Button>
         <Transition

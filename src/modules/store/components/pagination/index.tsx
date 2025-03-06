@@ -36,7 +36,7 @@ export function Pagination({
     <button
       key={p}
       className={clx("text-xl font-light text-slate-300 cursor-pointer", {
-        "text-yellow-500 font-medium cursor-auto": isCurrent,
+        "text-gold-500 font-medium cursor-auto": isCurrent,
       })}
       disabled={isCurrent}
       onClick={() => handlePageChange(p)}

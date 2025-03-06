@@ -32,7 +32,7 @@ export default async function Nav() {
               <SBCenterIcon
                 alt="SB Center"
                 height={36}
-                className="!cursor-pointer fill-slate-600 group-hover/logo:fill-yellow-500 transition-all duration-300"
+                className="!cursor-pointer fill-gold-500 group-hover/logo:fill-gold-700 transition-all duration-300"
               />
             </LocalizedClientLink>
           </div>
@@ -41,10 +41,10 @@ export default async function Nav() {
             <Suspense
               fallback={
                 <LocalizedClientLink
-                  className="text-slate-600 transition-all duration-300 hover:text-yellow-500 flex gap-2 items-center"
+                  className="text-gold-500 transition-all duration-300 hover:text-gold-700 flex gap-2 items-center"
                   href="/cart"
                 >
-                  <ShoppingBag/> <div className="mt-px ms-px pt-0.5 h-5 w-5 bg-slate-600 rounded-full text-white font-semibold text-center items-center justify-center">0</div>
+                  <ShoppingBag/> <div className="mt-px ms-px pt-0.5 h-5 w-5 bg-gold-500 rounded-full text-white font-semibold text-center items-center justify-center">0</div>
                 </LocalizedClientLink>
               }
             >
