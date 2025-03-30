@@ -24,7 +24,7 @@ const StoreTemplate = ({
       className="flex flex-col small:flex-row small:items-start py-6 content-container"
       data-testid="category-container"
     >
-      <div className="flex w-dvw small:w-1/4">
+      <div className="flex w-full small:w-1/4">
         <div className="pt-3 small:pl-3 pb-8 flex flex-row small:flex-col gap-y-6 gap-x-16 small:fixed">
           <Categories />
           <RefinementList sortBy={sort} />

@@ -17,7 +17,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
       </head>
       <body>
         <noscript>
-          <div className="h-dvh w-dvw flex flex-col text-center justify-center z-50 bg-white">
+          <div className="h-dvh w-full flex flex-col text-center justify-center z-50 bg-white">
             <p className="p-12">
               Questo sito web richiede JavaScript: abilitalo dalle impostazioni del tuo browser per visualizzarlo correttamente.
             </p>

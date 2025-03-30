@@ -14,7 +14,7 @@ const HeroSPA = () => {
         style={{
           objectFit: "cover",
         }}
-        className="h-full w-full brightness-50 rounded-xl shadow-md"
+        className="h-full w-full brightness-[0.4] rounded-xl shadow-md"
       />
       <div className="p-16 absolute inset-0 z-10 flex flex-col justify-between items-center text-center small:p-32 gap-6">
         <span />
