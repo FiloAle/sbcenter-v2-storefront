@@ -5,7 +5,7 @@ import { Text } from "@medusajs/ui"
 import Image from "next/image"
 import omegna from "../../../../../public/omegna.jpg"
 import arona from "../../../../../public/arona.jpg"
-import trattamento from "../../../../../public/storia.jpg"
+import trattamento from "../../../../../public/servizi.jpg"
 
 export const metadata: Metadata = {
   title: "Chi siamo | SB Center",
