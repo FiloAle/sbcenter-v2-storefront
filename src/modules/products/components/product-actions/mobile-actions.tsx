@@ -79,11 +79,9 @@ const MobileActions: React.FC<MobileActionsProps> = ({
               isLoading={isAdding}
               data-testid="mobile-cart-button"
             >
-              {!variant
-                ? "Seleziona variante"
-                : !inStock
-                ? "Non disponibile"
-                : "Aggiungi al carrello"}
+              { 
+                !variant ? "Seleziona variante" : !inStock ? "Non disponibile" : "Aggiungi al carrello"
+              }
             </Button>
           </div>
         </div>
