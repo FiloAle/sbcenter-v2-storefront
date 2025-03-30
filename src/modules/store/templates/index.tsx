@@ -25,12 +25,12 @@ const StoreTemplate = ({
       data-testid="category-container"
     >
       <div className="flex w-dvw small:w-1/4">
-        <div className="flex flex-row small:flex-col justify-between small:fixed">
+        <div className="pt-3 flex flex-row small:flex-col gap-6 small:fixed">
           <Categories />
           <RefinementList sortBy={sort} />
         </div>
-        
       </div>
+      
       <div className="w-full">
         <div className="mb-8 text-2xl-semi">
           <h1 data-testid="store-page-title">Tutti i prodotti</h1>

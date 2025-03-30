@@ -23,10 +23,13 @@ export default function CollectionTemplate({
 
   return (
     <div className="flex flex-col small:flex-row small:items-start py-6 content-container">
-      <div className="flex flex-row small:flex-col justify-between">
-        <Categories />
-        <RefinementList sortBy={sort} />
+      <div className="flex w-dvw small:w-1/4">
+        <div className="pt-3 flex flex-row small:flex-col gap-6 small:fixed">
+          <Categories />
+          <RefinementList sortBy={sort} />
+        </div>
       </div>
+      
       <div className="w-full">
         <div className="mb-8 text-2xl-semi">
           <h1>{collection.title}</h1>

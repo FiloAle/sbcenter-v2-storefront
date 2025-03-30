@@ -34,10 +34,13 @@ export default function CategoryTemplate({
       className="flex flex-col small:flex-row small:items-start py-6 content-container"
       data-testid="category-container"
     >
-      <div className="flex flex-row xsmall:flex-col justify-between">
-        <Categories />
-        <RefinementList sortBy={sort} />
+      <div className="flex w-dvw small:w-1/4">
+        <div className="pt-3 flex flex-row small:flex-col gap-6 small:fixed">
+          <Categories />
+          <RefinementList sortBy={sort} />
+        </div>
       </div>
+      
       <div className="w-full">
         <div className="flex flex-row mb-8 text-2xl-semi gap-4">
           {parents &&
