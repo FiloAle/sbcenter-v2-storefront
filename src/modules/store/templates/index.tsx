@@ -24,9 +24,12 @@ const StoreTemplate = ({
       className="flex flex-col small:flex-row small:items-start py-6 content-container"
       data-testid="category-container"
     >
-      <div className="flex flex-row small:flex-col justify-between">
-        <Categories />
-        <RefinementList sortBy={sort} />
+      <div className="flex w-dvw small:w-1/4">
+        <div className="flex flex-row small:flex-col justify-between small:fixed">
+          <Categories />
+          <RefinementList sortBy={sort} />
+        </div>
+        
       </div>
       <div className="w-full">
         <div className="mb-8 text-2xl-semi">
