@@ -1,16 +1,9 @@
-import { getCategoriesList } from "@lib/data/categories"
-import { getCollectionsList } from "@lib/data/collections"
 import { Text } from "@medusajs/ui"
-import Image from "next/image"
 
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
-import logo from "../../../../../public/sbcenter.svg"
 import SBCenterIcon from "../../../../../public/sbcenter"
 
 export default async function Footer() {
-  const { collections } = await getCollectionsList(0, 6)
-  const { product_categories } = await getCategoriesList(0, 6)
-
   return (
     <footer className="border-t border-ui-border-base w-full">
       <div className="px-6 flex flex-col w-full">
@@ -20,7 +13,7 @@ export default async function Footer() {
               <SBCenterIcon
                 alt="SB Center"
                 height={48}
-                className="!cursor-pointer fill-slate-600"
+                className="!cursor-pointer fill-gold-500 hover:fill-gold-700 transition-colors duration-300"
               />
             </LocalizedClientLink>
           </div>
