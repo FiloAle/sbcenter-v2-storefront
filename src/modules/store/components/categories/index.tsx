@@ -7,7 +7,7 @@ export default async function Categories() {
   const { collections } = await getCollectionsList(0, 12)
 
   return (
-    <div className="xsmall:content-container flex flex-col w-full">
+    <div className="flex flex-col w-full">
         <div className="text-sm">
         {collections && collections.length > 0 && (
             <div className="flex flex-col gap-y-3">
