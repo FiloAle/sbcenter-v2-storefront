@@ -5,7 +5,7 @@ import { Text } from "@medusajs/ui"
 import Image from "next/image"
 import omegna from "../../../../../public/omegna.jpg"
 import arona from "../../../../../public/arona.jpg"
-import trattamento from "../../../../../public/servizi.jpg"
+import storia from "../../../../../public/storia.png"
 
 export const metadata: Metadata = {
   title: "Chi siamo | SB Center",
@@ -24,9 +24,9 @@ export default async function About() {
 
         <div className="w-full h-full border border-slate-600 rounded-xl shadow-md flex flex-col lg:flex-row overflow-hidden">
           <Image 
-            src={trattamento}
+            src={storia}
             alt="Trattamento SB Center"
-            className="h-52 xsmall:h-96 lg:w-1/2 inset-0 object-cover object-center"
+            className="h-52 xsmall:h-96 lg:w-1/2 inset-0 object-cover"
             draggable={false}
           />
 
@@ -69,6 +69,7 @@ export default async function About() {
                             className="h-52 xsmall:h-96 inset-0 object-cover object-center border-b border-slate-600 group-hover/card:opacity-80 transition-all duration-300"
                             draggable={false}
                         />
+
                         <div className="flex flex-col text-md p-4 pt-5 justify-between items-start">
                             <Text className="text-slate-600 line-clamp-2 sm:line-clamp-1">
                                 Omegna (VB)
@@ -95,6 +96,7 @@ export default async function About() {
                             className="h-52 xsmall:h-96 inset-0 object-cover object-center border-b border-slate-600 group-hover/card:opacity-80 transition-all duration-300"
                             draggable={false}
                         />
+                        
                         <div className="flex flex-col text-md p-4 pt-5 justify-between items-start">
                             <Text className="text-slate-600 line-clamp-2 sm:line-clamp-1">
                                 Arona (NO)

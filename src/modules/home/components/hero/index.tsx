@@ -2,21 +2,24 @@ import { Heading } from "@medusajs/ui"
 import Image from "next/image"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import { PillButton } from "@modules/common/components/pill-button"
-import bgImage from "../../../../../public/spa.jpg"
+import bgImage from "../../../../../public/home.png"
 import { ChevronRightIcon } from "@heroicons/react/24/outline"
 
 const Hero = () => {
   return (
     <div className="h-[78vh] pt-6 px-6 pb-2 w-full relative flex justify-center items-center">
-      <Image
-        src={bgImage}
-        alt="SPA"
-        quality={100}
-        style={{
-          objectFit: "cover",
-        }}
-        className="h-full w-full brightness-80 rounded-xl shadow-md"
-      />
+      <div className="h-full w-full overflow-hidden rounded-xl shadow-md">
+        <Image
+          src={bgImage}
+          alt="SPA"
+          quality={100}
+          style={{
+            objectFit: "cover",
+          }}
+          className="h-full w-full brightness-50 scale-[1.56] -mt-[9rem] -ms-1"
+        />
+      </div>
+      
       <div className="p-16 absolute inset-0 z-10 flex flex-col justify-between items-center text-center small:p-32 gap-6">
         <span />
         <span>

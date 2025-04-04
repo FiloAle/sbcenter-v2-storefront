@@ -65,6 +65,11 @@ export default async function Footer() {
                     Facebook
                   </a>
                 </li>
+                <li>
+                  <a href="https://www.tiktok.com/@sbcenter.it" target="_blank" className="hover:text-ui-fg-base">
+                    TikTok
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
