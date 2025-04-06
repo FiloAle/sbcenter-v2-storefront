@@ -30,13 +30,10 @@ const Item = ({ item }: ItemProps) => {
 
       <Table.Cell className="!pr-0">
         <span className="!pr-0 flex flex-col items-end h-full justify-center">
-          <span className="flex gap-x-1 ">
-            <Text className="text-ui-fg-muted">
-              <span data-testid="product-quantity">{item.quantity}</span>x{" "}
-            </Text>
+          <span className="flex gap-x-1 items-center">
+            <Text className="!text-ui-fg-muted text-base-regular">{item.quantity}x </Text>
             <LineItemUnitPrice item={item} style="tight" />
           </span>
-
           <LineItemPrice item={item} style="tight" />
         </span>
       </Table.Cell>

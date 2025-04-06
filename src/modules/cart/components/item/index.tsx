@@ -112,8 +112,8 @@ const Item = ({ item, type = "full" }: ItemProps) => {
           })}
         >
           {type === "preview" && (
-            <span className="flex gap-x-1 ">
-              <Text className="text-ui-fg-muted">{item.quantity}x </Text>
+            <span className="flex gap-x-1 items-center">
+              <Text className="!text-ui-fg-muted text-base-regular">{item.quantity}x </Text>
               <LineItemUnitPrice item={item} style="tight" />
             </span>
           )}
