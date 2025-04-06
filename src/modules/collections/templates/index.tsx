@@ -30,7 +30,7 @@ export default function CollectionTemplate({
         </div>
       </div>
 
-      <div className="w-full">
+      <div className="w-full small:min-h-80">
         <div className="mb-8 text-2xl-semi">
           <h1>{collection.title}</h1>
         </div>
