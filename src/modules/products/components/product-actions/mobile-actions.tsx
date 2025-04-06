@@ -47,7 +47,7 @@ const MobileActions: React.FC<MobileActionsProps> = ({
           data-testid="mobile-actions"
         >
           <div className="flex items-center gap-x-2">
-            <span data-testid="mobile-title">{product.title}</span>
+            <span data-testid="mobile-title" className="line-clamp-1">{product.title}</span>
             <span>—</span>
             {selectedPrice ? (
               <div className="flex items-end gap-x-2 text-ui-fg-base">
