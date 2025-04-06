@@ -16,7 +16,7 @@ const HeroSecondary = () => {
           style={{
             objectFit: "cover",
           }}
-          className="h-full w-full brightness-[0.4] scale-[1.38] -mt-24"
+          className="h-full w-full brightness-[0.4] scale-[1.38] -mt-[5.5rem]"
         />
       </div>
   

@@ -16,7 +16,7 @@ const Hero = () => {
           style={{
             objectFit: "cover",
           }}
-          className="h-full w-full brightness-50 scale-[1.56] -mt-[9rem] -ms-1"
+          className="h-full w-full brightness-50 scale-[1.56] -mt-[8.5rem] -ms-1"
         />
       </div>
       
