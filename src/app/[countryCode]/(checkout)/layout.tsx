@@ -16,12 +16,12 @@ export default function CheckoutLayout({
             className="text-small-semi flex items-center gap-x-2 uppercase flex-1 basis-0 group/back"
             data-testid="back-to-cart-link"
           >
-            <ChevronLeftIcon className="h-4 stroke-2 stroke-slate-600 group-hover/back:stroke-gold-500 transition-all duration-300" />
+            <ChevronLeftIcon className="h-4 stroke-2 stroke-gold-500 group-hover/back:stroke-gold-700 transition-all duration-300" />
 
-            <span className="mt-px hidden small:block txt-compact-plus text-slate-600 group-hover/back:text-gold-500 transition-all duration-300">
+            <span className="mt-px hidden small:block txt-compact-plus text-gold-500 group-hover/back:text-gold-700 transition-all duration-300">
               Torna al carrello
             </span>
-            <span className="mt-px block small:hidden txt-compact-plus text-slate-600 group-hover/back:text-gold-500 transition-all duration-300">
+            <span className="mt-px block small:hidden txt-compact-plus text-gold-500 group-hover/back:text-gold-700 transition-all duration-300">
               Indietro
             </span>
           </LocalizedClientLink>
@@ -32,7 +32,7 @@ export default function CheckoutLayout({
             <SBCenterIcon
               alt="SB Center"
               height={36}
-              className="fill-slate-600 transition-all duration-300 !cursor-pointer hover:fill-gold-500"
+              className="fill-gold-500 transition-all duration-300 !cursor-pointer hover:fill-gold-700"
             />
           </LocalizedClientLink>
           <div className="flex-1 basis-0" />
