@@ -27,6 +27,7 @@ export default function CheckoutLayout({
           </LocalizedClientLink>
           <LocalizedClientLink
             href="/"
+            alt="Home"
             data-testid="store-link"
           >
             <SBCenterIcon

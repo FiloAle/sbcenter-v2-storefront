@@ -21,14 +21,8 @@ export default async function Nav() {
           <div className="flex items-center h-full !cursor-pointer group/logo">
             <LocalizedClientLink
               href="/"
+              alt="Home"
             >
-              {/* <Image
-                src={logo}
-                alt="SB Center"
-                height={36}
-                className="!cursor-pointer"
-              /> */}
-
               <SBCenterIcon
                 alt="SB Center"
                 height={36}
