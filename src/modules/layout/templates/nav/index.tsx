@@ -21,6 +21,7 @@ export default async function Nav() {
           <div className="flex items-center h-full !cursor-pointer group/logo">
             <LocalizedClientLink
               href="/"
+              aria-label="Get back to the homepage"
               alt="Home"
             >
               <SBCenterIcon

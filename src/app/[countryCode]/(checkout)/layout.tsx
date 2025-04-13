@@ -28,6 +28,7 @@ export default function CheckoutLayout({
           <LocalizedClientLink
             href="/"
             alt="Home"
+            aria-label="Get back to the homepage"
             data-testid="store-link"
           >
             <SBCenterIcon

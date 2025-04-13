@@ -9,7 +9,7 @@ export default async function Footer() {
       <div className="px-6 flex flex-col w-full">
         <div className="flex flex-col gap-y-6 xsmall:flex-row items-start justify-between py-20 font-sans">
           <div>
-            <LocalizedClientLink href="/" alt="Home">
+            <LocalizedClientLink href="/" alt="Home" aria-label="Get back to the homepage">
               <SBCenterIcon
                 alt="SB Center"
                 height={48}
