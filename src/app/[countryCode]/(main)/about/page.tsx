@@ -3,9 +3,9 @@ import { Metadata } from "next"
 import HeroAbout from "@modules/about/components/hero"
 import { Text } from "@medusajs/ui"
 import Image from "next/image"
-import omegna from "../../../../../public/omegna.jpg"
-import arona from "../../../../../public/arona.jpg"
-import storia from "../../../../../public/storia.png"
+import omegna from "../../../../../public/omegna.avif"
+import arona from "../../../../../public/arona.avif"
+import storia from "../../../../../public/storia.avif"
 
 export const metadata: Metadata = {
   title: "Chi siamo | SB Center",

@@ -1,6 +1,6 @@
 import { Heading } from "@medusajs/ui"
 import Image from "next/image"
-import titolare from "../../../../../public/simona.png"
+import titolare from "../../../../../public/simona.avif"
 
 const Hero = () => {
   return (

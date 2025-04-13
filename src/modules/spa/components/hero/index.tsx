@@ -1,7 +1,7 @@
 import { Heading } from "@medusajs/ui"
 import Image from "next/image"
 import { PillButton } from "@modules/common/components/pill-button"
-import bgImage from "../../../../../public/trattamento.jpg"
+import bgImage from "../../../../../public/trattamento.avif"
 import { ChevronRightIcon } from "@heroicons/react/24/outline"
 
 const HeroSPA = () => {

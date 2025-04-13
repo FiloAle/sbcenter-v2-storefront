@@ -2,7 +2,7 @@ import { Heading } from "@medusajs/ui"
 import Image from "next/image"
 import { PillButton } from "@modules/common/components/pill-button"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
-import bgImage from "../../../../../public/spa.jpeg"
+import bgImage from "../../../../../public/spa.avif"
 import { ChevronRightIcon } from "@heroicons/react/24/outline"
 
 const HeroSecondary = () => {
