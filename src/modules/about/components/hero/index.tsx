@@ -10,6 +10,7 @@ const Hero = () => {
           src={titolare}
           alt="Simona Bionda"
           quality={75}
+          height={1000}
           style={{
             objectFit: "cover",
           }}

@@ -13,6 +13,7 @@ const Hero = () => {
           src={bgImage}
           alt="SPA"
           quality={75}
+          height={1000}
           style={{
             objectFit: "cover",
           }}
