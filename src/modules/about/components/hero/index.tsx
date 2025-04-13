@@ -9,7 +9,7 @@ const Hero = () => {
         <Image
           src={titolare}
           alt="Simona Bionda"
-          quality={100}
+          quality={75}
           style={{
             objectFit: "cover",
           }}

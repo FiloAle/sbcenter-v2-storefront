@@ -11,7 +11,7 @@ const HeroSPA = () => {
         <Image
           src={bgImage}
           alt="SPA"
-          quality={100}
+          quality={75}
           style={{
             objectFit: "cover",
           }}

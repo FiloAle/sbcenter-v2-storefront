@@ -12,7 +12,7 @@ const HeroSecondary = () => {
         <Image
           src={bgImage}
           alt="Servizi"
-          quality={100}
+          quality={75}
           style={{
             objectFit: "cover",
           }}
