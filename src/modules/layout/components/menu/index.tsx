@@ -87,7 +87,7 @@ const SideMenu = () => {
                     >
                       <HandRaisedIcon
                         height={20}
-                        className="h-full pt-[3px] group-hover/about:-rotate-45 group-hover/about:-translate-x-0.5 transition-transform duration-300"
+                        className="h-full pt-[3px] -rotate-45 -translate-x-0.2"
                       />{" "}
                       Chi siamo
                     </LocalizedClientLink>
